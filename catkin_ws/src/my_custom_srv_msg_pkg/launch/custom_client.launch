@@ -1,0 +1,5 @@
+<launch>
+    <!-- My Package launch file -->
+    <node pkg="my_custom_srv_msg_pkg" type="call_bb8_service_server.py" name="CustomClient"  output="screen">
+    </node>
+</launch>

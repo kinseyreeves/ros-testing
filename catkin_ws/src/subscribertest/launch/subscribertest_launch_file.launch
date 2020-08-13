@@ -1,0 +1,5 @@
+<launch>
+    <!-- My Package launch file -->
+    <node pkg="subscribertest" type="subscribertest.py" name="SubTest"  output="screen">
+    </node>
+</launch>
