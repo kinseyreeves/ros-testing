@@ -1,0 +1,5 @@
+<launch>
+    <!-- My Package launch file -->
+    <node pkg="get_pose_service" type="get_pose_service.py" name="PoseService"  output="screen">
+    </node>
+</launch>
