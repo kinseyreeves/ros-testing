@@ -1,5 +1,11 @@
 #! /usr/bin/env python
 
+"""
+Robot which moves in a square therefore calibrating its localization
+
+"""
+
+
 import rospy
 from geometry_msgs.msg import Twist
 from std_srvs.srv import Empty, EmptyRequest # Import the service message python classes generated from Empty.srv.
@@ -13,8 +19,7 @@ def disperse():
 
     req_object = EmptyRequest()
     result = client(req_object)
-    print(result)
-    print("hello")
+
 
 class SquareMove:
     """
