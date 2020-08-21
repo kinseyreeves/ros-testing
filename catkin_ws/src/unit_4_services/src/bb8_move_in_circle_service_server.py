@@ -1,5 +1,5 @@
 #! /usr/bin/env python
-
+#Service server, client connects to this
 import rospy
 from std_srvs.srv import Empty, EmptyResponse # you import the service message python classes generated from Empty.srv.
 from geometry_msgs.msg import Twist
