@@ -68,7 +68,7 @@ class SquareMove:
         result = client(req_object)
 
     def sub_pose_callback(self, msg):
-        print("getting pose")
+        #print("getting pose")
         self.pose = msg.pose
         self.covariance_arr = msg.pose.covariance
 
